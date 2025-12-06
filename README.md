@@ -11,6 +11,15 @@
 
 Решение 1:
 
+Развернули GitLab локально на нашей виртуальной машине
+
+<img width="1834" height="1075" alt="image" src="https://github.com/user-attachments/assets/ee6da614-93c0-46b3-bc73-e54401c40896" />
+
+Создаем новый проект и пустой репозиторий в нём
+
+<img width="1632" height="1100" alt="image" src="https://github.com/user-attachments/assets/d7e291b1-f6bd-4c3b-8f45-7b2c244873bd" />
+
+
 
 
 Задание 2
