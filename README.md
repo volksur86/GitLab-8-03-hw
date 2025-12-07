@@ -31,16 +31,11 @@
 
 <img width="1599" height="1119" alt="image" src="https://github.com/user-attachments/assets/45fef65a-5dab-40e4-8559-9be233f335af" />
 
-<img width="1333" height="594" alt="image" src="https://github.com/user-attachments/assets/feaad196-89f2-4ee7-ae1a-ae172217508e" />
+<img width="1267" height="1126" alt="image" src="https://github.com/user-attachments/assets/4ddbc449-f619-4c82-bcd3-8a59576d9ebf" />
 
+<img width="1300" height="856" alt="image" src="https://github.com/user-attachments/assets/daff0e57-1c7f-49b5-85ef-af2835897de4" />
 
-
-
-
-
-
-
-
+<img width="1230" height="1128" alt="image" src="https://github.com/user-attachments/assets/6cc5f3cb-3ffb-40fc-9ef7-3a5dc6ceaa8c" />
 
 Задание 2
 Что нужно сделать:
