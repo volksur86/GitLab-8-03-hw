@@ -11,13 +11,19 @@
 
 Решение 1:
 
-Развернули GitLab локально на нашей виртуальной машине
+1.1 Развернули GitLab локально на нашей виртуальной машине
+
+<img width="1142" height="276" alt="image" src="https://github.com/user-attachments/assets/9f14c765-e395-4ef0-89ec-47c579f01434" />
+
+<img width="1043" height="670" alt="image" src="https://github.com/user-attachments/assets/c73e25f8-c3eb-4fc9-a74c-0b7044ab9127" />
 
 <img width="1834" height="1075" alt="image" src="https://github.com/user-attachments/assets/ee6da614-93c0-46b3-bc73-e54401c40896" />
 
-Создаем новый проект и пустой репозиторий в нём
+1.2 Создаем новый проект и пустой репозиторий в нём
 
 <img width="1632" height="1100" alt="image" src="https://github.com/user-attachments/assets/d7e291b1-f6bd-4c3b-8f45-7b2c244873bd" />
+
+1.3 Регистрируем gitlab-runner для своего проекта и запустим его в режиме Docker
 
 
 
