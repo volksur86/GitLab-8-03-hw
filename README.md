@@ -25,13 +25,15 @@
 
 1.3 Регистрируем gitlab-runner для своего проекта и запустим его в режиме Docker
 
-<img width="1708" height="656" alt="image" src="https://github.com/user-attachments/assets/42e429c0-e40b-4597-8b1d-00887b5ea5c6" />
+<img width="1247" height="431" alt="image" src="https://github.com/user-attachments/assets/ea45942e-77cd-4169-a584-a3f3c13bdb0c" />
 
 <img width="1192" height="958" alt="image" src="https://github.com/user-attachments/assets/e749d204-715c-4a89-a078-d0c35898ce62" />
 
 <img width="1599" height="1119" alt="image" src="https://github.com/user-attachments/assets/45fef65a-5dab-40e4-8559-9be233f335af" />
 
 <img width="1333" height="594" alt="image" src="https://github.com/user-attachments/assets/feaad196-89f2-4ee7-ae1a-ae172217508e" />
+
+
 
 
 
