@@ -1,0 +1,27 @@
+stages:
+  - validate
+  - build
+
+validate-vagrantfile:
+  stage: validate
+  script:
+    - echo "Checking Vagrantfile..."
+    - if [ -f "gitlab/Vagrantfile" ]; then echo "Vagrantfile found"; else echo "Vagrantfile not found"; exit 1; fi
+    - echo "Vagrantfile size: $(wc -l gitlab/Vagrantfile | awk '{print $1}') строк"
+  tags:
+    - docker
+    - linux
+
+build-project:
+  stage: build
+  script:
+    - echo "Assembling project..."
+    - echo "Project contents:"
+    - find . -type f -name "*.yml" -o -name "*.yaml" -o -name "Vagrantfile" | head -10
+    - echo "Assembly complete"
+  tags:
+    - docker
+    - linux
+  only:
+    - main
+    - master
