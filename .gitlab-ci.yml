@@ -1,0 +1,20 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: golang:1.17
+  script:
+    - go test .
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker build -t $CI_PROJECT_NAME:latest .
+  only:
+    - master
+    - main
