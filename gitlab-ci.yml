@@ -1,27 +1,32 @@
 stages:
-  - validate
+  - test
   - build
 
-validate-vagrantfile:
-  stage: validate
+# Этап 1: Тестирование Go кода
+test:
+  stage: test
+  image: golang:1.17
   script:
-    - echo "Checking Vagrantfile..."
-    - if [ -f "gitlab/Vagrantfile" ]; then echo "Vagrantfile found"; else echo "Vagrantfile not found"; exit 1; fi
-    - echo "Vagrantfile size: $(wc -l gitlab/Vagrantfile | awk '{print $1}') строк"
-  tags:
-    - docker
-    - linux
+    - echo "Starting Go tests..."
+    - go test -v .
+    - echo "Tests completed successfully!"
+  artifacts:
+    reports:
+      junit: report.xml
+    expire_in: 1 week
+  only:
+    - branches
 
-build-project:
+# Этап 2: Сборка Docker образа
+build:
   stage: build
+  image: docker:latest
+  services:
+    - docker:dind
   script:
-    - echo "Assembling project..."
-    - echo "Project contents:"
-    - find . -type f -name "*.yml" -o -name "*.yaml" -o -name "Vagrantfile" | head -10
-    - echo "Assembly complete"
-  tags:
-    - docker
-    - linux
+    - echo "Building Docker image..."
+    - docker build -t sdvps-app:latest .
+    - echo "Build completed!"
   only:
     - main
     - master
