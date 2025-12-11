@@ -10,7 +10,7 @@ test:
   stage: test
   image: golang:1.17
   script:
-    - echo "Test"
+    - echo "Тестирование"
     - go version
     - go test -v -race . || true
   allow_failure: true
@@ -21,7 +21,7 @@ build:
   services:
     - docker:dind
   script:
-    - echo "Create Docker"
+    - echo "Сборка Docker"
     - docker build -t $CI_PROJECT_NAME:latest . || true
   only:
     - master
