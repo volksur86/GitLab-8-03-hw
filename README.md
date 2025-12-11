@@ -58,9 +58,12 @@
 
 <img width="1730" height="1079" alt="image" src="https://github.com/user-attachments/assets/71e2fd31-9430-4121-b625-eae3ef5ebfdf" />
 
+
 <img width="1522" height="654" alt="image" src="https://github.com/user-attachments/assets/ca57b569-3598-465f-8fb7-0d248b3bdd01" />
 
+
 <img width="1680" height="212" alt="image" src="https://github.com/user-attachments/assets/9d07d4e4-7d83-49f2-b1a4-ebe271f67eca" />
+
 
 
 Дополнительные задания* (со звёздочкой)
