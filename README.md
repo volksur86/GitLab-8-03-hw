@@ -52,18 +52,15 @@
 
 Решение 2:
 
-.yml прикреплен во вложении.
+Второе задание выполнял на ВМ в Yandex Cloud, т.к. при запуске машина развернутая на VirtualBox зависала.
 
-В терминале все команды выполняются без ошибок, отправляю все в GutLab, перехожу в браузер для проверки пайплайна и он зависает (браузер). Ранер перед этим тоже проверяю - он запущен. По памяти занято 6.5 гб из 8 выделеных для этой ВМ, уже пересоздавал машину с нуля, накидывал процессоров, не могу понять в чем дело? Не могу сделать скриншоты запуска Pipeline. Подскажите пожалуйста, что можно еще посмотреть- поправить или где можно дополнительно еще почитать по такой проблеме?
+<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/3bf31d39-2321-4897-a4ab-bec530c1a2e5" />
 
-<img width="1730" height="1079" alt="image" src="https://github.com/user-attachments/assets/71e2fd31-9430-4121-b625-eae3ef5ebfdf" />
+<img width="1540" height="1145" alt="image" src="https://github.com/user-attachments/assets/a36c627a-1bfd-495a-9bcf-5edc69c9426e" />
 
+<img width="1540" height="1119" alt="image" src="https://github.com/user-attachments/assets/53a80e6c-f3e7-45c7-bd8f-45f5e81b160d" />
 
-<img width="1522" height="654" alt="image" src="https://github.com/user-attachments/assets/ca57b569-3598-465f-8fb7-0d248b3bdd01" />
-
-
-<img width="1680" height="212" alt="image" src="https://github.com/user-attachments/assets/9d07d4e4-7d83-49f2-b1a4-ebe271f67eca" />
-
+<img width="1863" height="1115" alt="image" src="https://github.com/user-attachments/assets/406fc6bc-8aed-4d02-b5f4-bd1c9fecf1ca" />
 
 
 Дополнительные задания* (со звёздочкой)
